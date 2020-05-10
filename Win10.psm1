@@ -3725,7 +3725,7 @@ Function UnpinTaskbarIcons {
 
 # Wait for key press
 Function WaitForKey {
-	Write-Output "`nPress any key to continue..."
+	Write-Output "`nPress any key to continue (will reboot)..."
 	[Console]::ReadKey($true) | Out-Null
 }
 
